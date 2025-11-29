@@ -61,7 +61,7 @@ const Todo = () => {
     );
   });
   return (
-    <div className="bg-white place-self-center w-11/12 max-w-md flex flex-col p-7 min-h-[550px] rounded-2xl">
+    <div className="bg-white place-self-center w-11/12 max-w-md flex flex-col p-7 min-h-[550px] rounded-2xl sm:w-10/12 max-[392px]:w-[350px] max-[365px]:w-[340px] max-[350px]:w-[330px] max-[340px]:w-[300px]">
       {/* --- tittle ---  */}
       <div className="flex items-center mt-7 gap-2">
         <img src={todo_icon} alt="" className="w-8" />
@@ -77,7 +77,7 @@ const Todo = () => {
         />
         <button
           onClick={add}
-          className="border-none rounded-full bg-orange-600 w-32 h-14 text-white text-lg font-medium cursor-pointer transition-all duration-200 ease-in hover:bg-amber-700"
+          className="border-none rounded-full bg-orange-600 w-32 h-14 text-white text-lg font-medium cursor-pointer transition-all duration-200 ease-in hover:bg-amber-700 max-[350px]:text-[9px]"
         >
           ADD +
         </button>
