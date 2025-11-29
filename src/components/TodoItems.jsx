@@ -18,7 +18,7 @@ const TodoItems = ({ text, id, isComplete, deleteTodo, toggle }) => {
           className="w-7 select-none"
         />
         <p
-          className={`text-slate-700 ml-4 text-[17px] select-none decoration-slate-500 ${
+          className={`text-slate-700 ml-4 text-[17px] select-none decoration-slate-500 break-words break-all whitespace-normal ${
             isComplete ? "line-through" : ""
           } `}
         >
